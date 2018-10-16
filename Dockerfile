@@ -1,12 +1,12 @@
 FROM node:9.6.1
 
-RUN mkdir /usr/src/my-profile
-WORKDIR /usr/src/my-profile
+RUN mkdir /usr/src/mynuch
+WORKDIR /usr/src/mynuch
 
-COPY package.json /usr/src/my-profile/
+COPY package.json /usr/src/mynuch/
 RUN npm install
 
-COPY . /usr/src/my-profile
+COPY . /usr/src/mynuch
 
 CMD ["npm","start"]
 
