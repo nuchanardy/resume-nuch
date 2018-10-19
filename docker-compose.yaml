@@ -4,5 +4,5 @@ services:
     image: nuchanard/node-express-profile
     ports:
       - "8000:8000"
-    command: "npmstart"
+    command: "npm start"
 
