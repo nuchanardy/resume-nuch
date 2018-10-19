@@ -1,8 +1,8 @@
 version: '3.5'
 services:
   myapp:
-    image: nuchanard/node-express-profile
+    image: nuchanardy/resume-nuch
     ports:
-      - "8000:8000"
+      - "8053:8000"
     command: "npm start"
 
